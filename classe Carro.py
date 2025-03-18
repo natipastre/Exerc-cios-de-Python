@@ -1,3 +1,12 @@
+#O programa deverá iniciar com a criação de uma classe chamada “Carro”, contendo um método “tipo_carro” que retorna a mensagem “Este é um carro”.
+Será criada uma subclasse chamada “CarroEsportivo”, que herda de “Carro”, e o método “tipo_carro” será sobrescrito para retornar a mensagem “Este é um carro esportivo”.
+Em seguida, será criada a subclasse “CarroFamilia”, também herdando de “Carro”, e o método “tipo_carro” será para retornar a mensagem “Este é um carro de família”.
+Será criada a subclasse “CarroSUV”, que herda de “Carro”, e o método “tipo_carro” será sobrescrito para retornar a mensagem “Este é um carro SUV”.
+O programa deverá instanciar as variáveis carro, carro_esportivo, carro_familia e carro_suv com os respecitivos objetos das classes criadas.
+Utilizar o comando print para exibir no console a mensagem de cada objeto, chamando o método tipo_carro de cada instância.
+testar o programa para garantir que a saída está correta e que cada tipo de carro é exibido corretamente no console
+
+
 # Classe base Carro
 class Carro:
     def tipo_carro(self):
